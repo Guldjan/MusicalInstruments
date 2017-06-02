@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Добре дошъл в света на музикалните инструменти!</h1>
+    <p class="lead"></p>
+    <p>Запознай се с тези четири семейства: Струнни, Духови, Ударни и Клавишни.</p>
+    <p>Защо се наричат семейсва?</p>
+    <p>Защото инструментите от всяко семейство споделят
+     общи черти като начина, по който издават звук, как са конструирани и материалите, от които са изработени.</p>
+</div>
+
+<div class="row menu">
+    <div class="col-md-3 strings">
+        <h2>Струнни</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Strings", "Categories")">Научи повече &raquo;</a></p>
+    </div>
+    <div class="col-md-3 brass">
+        <h2>Духови</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Brass", "Categories")">Научи повече &raquo;</a></p>
+    </div>
+    <div class="col-md-3 percussion">
+        <h2>Ударни</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Percussion", "Categories")">Научи повече &raquo;</a></p>
+    </div>
+    <div class="col-md-3 keys">
+        <h2>Клавишни</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Keys", "Categories")">Научи повече &raquo;</a></p>
+    </div>
+</div>

@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Ударни";
+}
+
+<h1 class="heading">Ударни инструменти</h1>
+
+<p class="intro">
+    В семейство ударни има много различни инструменти - от малки до големи и от обикновени до сложни.
+    За да свириш на ударен инструмент трябва да го удариш или разклатиш. За някои инструменти се използват стикове.
+    Може да звучи лесно, но се изискват много способности за да удариш инструмента с точната сила, на точното място
+    и в точното време. Ударните инструменти се използват, за да поддържат ритъма, да издават специални звуци и дори
+    да свирят различни ноти.
+</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading purple">
+                <h3 class="panel-title">Барабан</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="/pictures/snaredrum.jpg" alt="Alternate Text" class="img-responsive" />
+                </div>
+                <div class="col-sm-8">
+                    <div class="panel-body">
+                        <p>Барабанът има няколко метални жици, разположени под долната му част,
+                        които изздават тракащ звук, когато се удари барабана. Стандартният барабан
+                        представлява кух цилиндър с две парчета кожа опънати отгоре и отдолу.
+                        За направата му се използва телешка кожа или пластмаса. На барабан се 
+                        свири като се удря горната част с пръчки или чукчета.</p>
+                        <audio controls><source src="/sounds/snare.mp3" type="audio/mpeg" /></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading green">
+                    <h3 class="panel-title ">Чинели</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="/pictures/cymbals.jpg" alt="Alternate Text" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="panel-body">
+                            <p>
+                                Чинелите приличат на боядисани в златисто капаци на тенджери, но тези вдлъбнати
+                                месигови чинии са изискани инстументи. Размера на чинелите определя звука - по-малките
+                                издават по-висок звук, а по-големите по-нисък. Те могат да се използват за внушение на
+                                драма, вълнение, ритъм или деликатни звукови ефекти. На чинелите се свири или като се
+                                удрят един в друг, или чрез пръчки.
+                            </p>
+                            <audio controls><source src="/sounds/cymbal.wav" type="audio/wav" /></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading blue">
+                <h3 class="panel-title">Тимпани</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="/pictures/timpani.jpg" alt="Alternate Text" class="img-responsive" />
+                </div>
+                <div class="col-sm-8">
+                    <div class="panel-body">
+                        <p>Тимпани лесно се забелязва, защото изглежда като голяма лъскава купа,
+                        върху която е опъната кожа, изработена от телешка кожа или пластмаса.
+                        Тимпани могат да свирят различни ноти. Това се прави като се натиска педал,
+                        който разтяга или отпуска кожата. На тимпани се свири като се удря кожата 
+                        със скосени чукчета или дървени пръчки.</p>
+                        <audio controls><source src="/sounds/timpani.wav" type="audio/wav" /></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row test-btn">
+    <p><a class="btn btn-success col-sm-offset-9" href="@Url.Action("PercussionTest", "Tests")">Упражни знанията си &raquo;</a></p>
+</div>

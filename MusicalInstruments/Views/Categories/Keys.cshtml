@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Клавишни";
+}
+
+<h1 class="heading">Клавишни инструмети</h1>
+
+<p class="intro">
+    Клавишните инструменти са тези, които произвеждат звук с помощта на клавиши, които задействат чукче.
+</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading green">
+                <h3 class="panel-title">Пиано</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="/pictures/piano.png" alt="Alternate Text" class="img-responsive" />
+                </div>
+                <div class="col-sm-8">
+                    <div class="panel-body">
+                        <p>Пианото има общо 88 клавиша. Когато се натисне клавиш, той задейства
+                        малко чукче, което удря струна и произвежда звук. На пиано се свири като
+                        с двете ръце се натискат клавишите. Въпреки, че е голямо, скъпо и трудно преносимо
+                        то се е превърнало в един от най-разпространените музикални иструменти.</p>
+                        <audio controls><source src="/sounds/piano.mp3" type="audio/mpeg" /></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading yellow">
+                <h3 class="panel-title">Челеста</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="/pictures/celesta.jpg" alt="Alternate Text" class="img-responsive" />
+                </div>
+                <div class="col-sm-8">
+                    <div class="panel-body">
+                        <p>Челестата прилича на малко пиано и звучи като звънтящи камбанки. Стандартната
+                        челеста има клавиатура от 49 - 65 клавиши. Когато се натисне клавиш, той задвижва
+                        чукче, което удря метално блокче. Звукът, който се чува прилича на звън на камбанка.
+                        Може да се свирят много клавиши едновременно с двете ръце.</p>
+                        <audio controls><source src="/sounds/celesta.wav" type="audio/wav" /></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row test-btn">
+    <p><a class="btn btn-success col-sm-offset-9" href="@Url.Action("KeysTest", "Tests")">Упражни знанията си &raquo;</a></p>
+</div>

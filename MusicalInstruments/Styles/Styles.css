@@ -1,0 +1,110 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #69A2B0;
+    border-color: #69A2B0;
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: #A1C084;
+    color: white;
+}
+
+.menu a {
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+}
+
+.strings {
+    font-weight: bold;
+    color: #5E4B56;
+}
+
+    .strings a {
+        background-color: #A690A4;
+    }
+
+.brass {
+    color: #1C3144;
+}
+
+    .brass a {
+        background-color: #69A2B0;
+    }
+
+.percussion {
+    color: #F0A202;
+}
+
+    .percussion a {
+        background-color: #F4D35E;
+    }
+
+.keys {
+    color: #E05263;
+}
+
+    .keys a {
+        background-color: #FFCAB1;
+    }
+
+
+.heading {
+    text-align: center;
+    color: #69A2B0;
+}
+
+.intro {
+    text-align: center;
+}
+
+
+.panel .purple {
+    background-image: none;
+    background-color: #A690A4;
+    color: white;
+}
+
+.panel .green {
+    background-image: none;
+    background-color: #A1C084;
+    color: white;
+}
+
+.panel .blue {
+    background-image: none;
+    background-color: #69A2B0;
+    color: white;
+}
+
+.panel .yellow {
+    background-image: none;
+    background-color: #F4D35E;
+    color: white;
+}
+
+    .panel .panel-heading h3 {
+        font-size: 22px;
+    }
+
+.test-btn a{
+    font-size: 20px;
+}
+
+h4 {
+    font-weight: bold;
+    color: #32936F;
+}
+
+.test-title {
+    color: darkslategrey;
+}
+
+#submit {
+    font-size: 20px;
+}
